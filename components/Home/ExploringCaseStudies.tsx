@@ -8,7 +8,7 @@ export default function ExploringCaseStudies() {
   return (
     <div className="flex justify-center flex-col items-center bg-gray-100 dark:bg-[#0E172B] py-10 lg:py-20 px-5 md:px-20 lg:px-40 text-sky-950">
       <div className="flex flex-col items-center justify-center gap-4">
-        <h1 className="text-3xl font-bold text-gray-200 text-center">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-200 text-center">
           Exploring Case Studies
         </h1>
         <p className="text-base font-normal text-gray-400 dark:text-gray-300 text-center">
