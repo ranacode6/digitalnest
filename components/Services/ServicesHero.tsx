@@ -59,8 +59,6 @@ export default function ServicesHero() {
           slidesPerView={1}
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000 }}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
             <Image

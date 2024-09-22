@@ -117,8 +117,6 @@ export default function ClientTestimonial() {
             spaceBetween={50}
             autoplay={{ delay: 3000 }}
             pagination={{ clickable: true }}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{
               320: {
                 width: 320,
