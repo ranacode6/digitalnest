@@ -39,7 +39,7 @@ export default async function BlogSlug({
             alt={blog.title}
           />
         </div>
-        <div className="my-16 prose prose-xl prose-slate px-3 prose-headings:text-gray-700 prose-headings:text-center prose-code:text-blue-500 prose-p:text-gray-600 prose-ul:text-gray-600 prose-li:text-gray-600 prose-strong:text-gray-600 dark:prose-invert dark:prose-headings:text-gray-400 prose-a:text-gray-600 prose-lead:text-gray-600 prose-ol:text-gray-600 dark:prose-code:text-orange-400 dark:prose-p:text-gray-400 dark:prose-li:text-gray-400 dark:prose-strong:text-gray-400 dark:prose-ul:text-gray-400 dark:prose-ol:text-gray-400 prose-figure:text-gray-800 prose-li:marker:text-black dark:prose-li:marker:text-white">
+        <div className="my-16 prose prose-xl prose-slate px-3 prose-headings:text-gray-700 prose-headings:text-center prose-code:text-blue-500 prose-code:text-xs md:prose-code:text-xl prose-p:text-gray-600 prose-ul:text-gray-600 prose-li:text-gray-600 prose-strong:text-gray-600 dark:prose-invert dark:prose-headings:text-gray-400 prose-a:text-gray-600 prose-lead:text-gray-600 prose-ol:text-gray-600 dark:prose-code:text-orange-400 dark:prose-p:text-gray-400 dark:prose-li:text-gray-400 dark:prose-strong:text-gray-400 dark:prose-ul:text-gray-400 dark:prose-ol:text-gray-400 prose-figure:text-gray-800 prose-li:marker:text-black dark:prose-li:marker:text-white">
           <PortableText value={blog.content} />
         </div>
       </div>
